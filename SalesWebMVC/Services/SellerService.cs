@@ -25,5 +25,13 @@ namespace SalesWebMVC.Services
         {
             return this._context.Seller.ToList();
         }
+
+        /* Inserts into DB a new seller
+         * @param Seller obj
+         */
+        public void Insert(Seller obj)
+        {
+            this._context.Add(obj);
+            this._context.SaveChanges();        }
     }
 }
