@@ -26,6 +26,23 @@ namespace SalesWebMVC.Services
             return this._context.Seller.ToList();
         }
 
+        /* Returns a seller from DB by id
+         * @return Seller
+         */
+        public Seller FindById(int id)
+        {
+            return this._context.Seller.FirstOrDefault(s => s.Id == id);
+        }
+
+        /* Removes a seller from DB by id
+         */
+        public void Remove(int id)
+        {
+            var obj = this._context.Seller.Find(id);
+            this._context.Seller.Remove(obj);
+            this._context.SaveChanges();
+        }
+
         /* Inserts into DB a new seller
          * @param Seller obj
          */
