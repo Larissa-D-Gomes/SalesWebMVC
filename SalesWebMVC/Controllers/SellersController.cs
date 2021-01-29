@@ -5,17 +5,20 @@ using System.Linq;
 using System.Threading.Tasks;
 using SalesWebMVC.Services;
 using SalesWebMVC.Models;
+using SalesWebMVC.Models.ViewModels;
 
 namespace SalesWebMVC.Controllers
 {
     public class SellersController : Controller
     {
         private readonly SellerService _sellerService;
+        private readonly DepartmentService _departmentService;
 
         //Contructor 
-        public SellersController(SellerService sellerService)
+        public SellersController(SellerService sellerService, DepartmentService departmentService)
         {
             this._sellerService = sellerService;
+            this._departmentService = departmentService;
         }
 
         //Actions
@@ -28,7 +31,9 @@ namespace SalesWebMVC.Controllers
         // Create -> GET
         public IActionResult Create()
         {
-            return View();
+            var departments = this._departmentService.FindAll();
+            var viewModel = new SellerFormViewModel { Departments = departments };
+            return View(viewModel);
         }
 
         // Create -> POST
