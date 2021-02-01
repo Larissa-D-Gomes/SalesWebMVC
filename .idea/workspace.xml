@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="749f97e1-f816-4ac9-a1bd-6b8b9dd74e39" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/SalesWebMVC/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SalesWebMVC/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalesWebMVC/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/SalesWebMVC/Views/Shared/_Layout.cshtml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1nt9k2IcetczC3nqdK5KULxuTar" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="749f97e1-f816-4ac9-a1bd-6b8b9dd74e39" name="Default Changelist" comment="" />
+      <created>1612198660135</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612198660135</updated>
+    </task>
+    <servers />
+  </component>
+</project>
